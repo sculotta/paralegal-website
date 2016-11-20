@@ -1,0 +1,224 @@
+
+/* add buttons for facebook twitter and insta */
+
+html {
+	height: 100%;
+}
+
+/* no longer needed .main-heading {
+
+	text-decoration:none;
+	font-size: 50px;
+	color: gray;
+	float: left;
+}
+
+*/
+
+
+.container {
+
+    width: 60%;
+    margin: auto;
+	background: #FFF;
+
+}
+
+.header {
+
+	padding: 0px;
+	display: inline-block;
+}
+
+.logo {
+    width: 400px;
+    display: block;
+    margin: auto;
+    float: left;
+    padding: 0px;
+}
+
+.header #search {
+	float: right;
+    width: 200px border-radius: 5px;
+    background: #FFFFFF
+    font-family: sans-serif;
+    padding: 0px, 20px 0px 500px;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    margin-: auto;
+    margin: auto;
+    margin-left: 440px;
+}
+.menu {
+
+	background: blue;
+	padding: 6px 0 6px 40px;
+	margin-top: 1.5%;
+  height: 25px;
+
+
+}
+
+.menu a {
+
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size:20px;
+	font-family: "sans-serif";
+	display:inline;
+
+
+
+
+}
+
+.menu a:hover {
+
+	color:#d6d6d6;
+	cursor: pointer;
+	cursor:hand;
+
+
+}
+
+
+h1 {
+
+margin: 0px;
+color: #869843;
+font-size: 24px;
+font-family:"Arrial Narrow", "Myriad Pro", "sans-serif";
+font-weight: normal;
+
+
+}
+
+h2 { 
+
+color: #3B7687;
+font-size: 15px;
+margin: 20px 0 5px 0;
+
+ }
+
+ .main {
+
+  /* Set margin to 0 pixels on all sides */
+  margin: 0px;
+  /* Set font size to be 20 pixels */
+  font-size:20px;
+  /* Set line height to be 1.5 times larger than default */
+  line-height: 1.5;
+  /* Set font family to be Helvetica or Arial */
+  font-family:arial,Helvetica;
+
+  min-height: 100%;
+
+  display:flex;
+
+  flex-direction:column;
+}
+
+
+
+ .main a:hover {
+ 	color:#ECF2F3;
+
+ }
+
+#home-image img {
+
+    max-width: 100%;
+    width: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+
+footer  {
+ 	padding: 6px 0px 6px 0px;
+ 	background:#d6d6d6;
+ 	font-family: "Lucida sans Unicode";
+ 	color: #444444;
+ 	font-size: 11px;
+ 	text-align:center;
+ 	flex:1;
+ 	
+ }
+
+footer a {
+
+ 	text-decoration:none;
+ 	color:#262626;
+
+ }
+
+footer a:hover {
+
+ 	color: #ECF2F3;
+
+ }
+
+ .separator {
+
+ 	color: #FFFFFF;
+ 	font-size: 11px;
+
+ }
+
+ /**********************About Page Styles **********/
+
+ #about-page #home-image img {
+
+	width:70%;
+	float:left;
+	margin-bottom:20px;
+
+ }
+
+ #about-page #profile-info {
+ 	float:right;
+ 	width: 20%;
+ 	margin: 5px;
+
+ }
+
+ #about-page .description {
+ 	clear:both;
+ }
+
+/*******************Contact page ******************/
+
+ #form #contact {
+
+ 	width: 500px;
+ 	margin:0 auto;
+ 	text-align:center;
+ 	border-radius:5px;
+ 	box-shadow: 0px 9px 10px 11px;
+
+ }
+
+#contact  #form  input {
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #d6d6d6;
+
+  }
+
+ #contact #form #message {
+ 	width: 100%;
+    border-radius: 5px;
+    background: #d6d6d6;
+
+ }
+
+ #contact #form #submit {
+ 	height: 30px;
+    background: aliceblue;
+ }
+
